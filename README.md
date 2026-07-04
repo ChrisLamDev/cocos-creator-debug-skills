@@ -1,5 +1,18 @@
 # Cocos Creator Debug Skills
 
+<div align="center">
+
+[![GitHub stars](https://img.shields.io/github/stars/ChrisLamDev/cocos-creator-debug-skills?style=for-the-badge&logo=github)](https://github.com/ChrisLamDev/cocos-creator-debug-skills/stargazers)
+[![GitHub forks](https://img.shields.io/github/forks/ChrisLamDev/cocos-creator-debug-skills?style=for-the-badge&logo=github)](https://github.com/ChrisLamDev/cocos-creator-debug-skills/forks)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](https://opensource.org/licenses/MIT)
+[![Skills](https://img.shields.io/badge/Skills-17-8A2BE2?style=for-the-badge)](skills/)
+[![Claude Code](https://img.shields.io/badge/Claude%20Code-ready-8A2BE2?style=for-the-badge&logo=anthropic)](https://claude.ai)
+[![OpenAI Codex](https://img.shields.io/badge/OpenAI%20Codex-ready-8A2BE2?style=for-the-badge&logo=openai)](https://openai.com)
+[![Cursor](https://img.shields.io/badge/Cursor-ready-8A2BE2?style=for-the-badge&logo=cursor)](https://cursor.sh)
+[![Hermes Agent](https://img.shields.io/badge/Hermes%20Agent-ready-8A2BE2?style=for-the-badge&logo=python)](https://github.com/NousResearch/hermes-agent)
+
+</div>
+
 **Your Cocos Creator 3.x keeps crashing with gray screens? Been there.**
 
 This collection of 17 executable AI agent skills documents every Cocos Creator 3.x bug I've encountered and the exact steps to fix them — gray screens, black previews, corrupt scene files, code-driven UI rendering issues, CLI build failures, and more.
