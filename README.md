@@ -33,6 +33,12 @@ This collection of 17 executable AI agent skills documents every Cocos Creator 3
 
 Each skill is a proven workflow your AI agent can load and execute immediately.
 
+## 💡 Why These Skills?
+
+Cocos Creator 3.x debugging is trial-and-error — gray screens, corrupt scenes, broken component bindings take hours to diagnose. You check the camera, then the canvas, then the render pipeline, then search five GitHub issues, then re-import the project. Every Cocos developer has burned a full afternoon on a problem that turned out to be a single missing UUID or a `_near` value set to zero.
+
+These 17 skills encode hard-won debugging patterns so your AI agent fixes in seconds instead of hours. Each one captures a real bug we fixed — the exact symptoms, root cause, and the precise sequence of commands and checks that resolved it. Hand your agent a skill file and it knows exactly where to look, what to run, and how to interpret the output. No more context-switching between the Cocos docs, Stack Overflow, and your terminal.
+
 ## You've definitely been here:
 
 ```
@@ -77,6 +83,60 @@ Each skill is a proven workflow your AI agent can load and execute immediately.
 | 15 | **cocos-ts-compile-check-sop** | TypeScript compile check — `tsc --noEmit` |
 | 16 | **cocos-cli-build-automation-setup** | GUI-free build pipeline for CI/CD |
 | 17 | **cocos-creator-scene-less-test-bootstrap** | Runtime test bootstrap without .scene files |
+
+## 🧬 Skill Anatomy
+
+Each skill lives in its own directory under `skills/` and follows a consistent file format that AI agents can parse and execute programmatically.
+
+```
+skills/
+├── cocos-gray-screen-debug-flow/
+│   ├── SKILL.md                    ← main skill file (required)
+│   └── references/                 ← supporting docs (optional)
+│       ├── full-debug-flow.md
+│       └── uuid-debug.md
+├── cocos-dynamic-ui-panel/
+│   └── SKILL.md
+├── cocos-nirvana-rebuild-scene/
+│   └── SKILL.md
+├── ...
+```
+
+Every `SKILL.md` uses this structure:
+
+**YAML frontmatter** — agent-readable metadata for discovery and routing:
+
+```yaml
+name: cocos-gray-screen-debug-flow
+description: Use when Cocos Creator 3.x shows gray or black screen in Preview mode.
+version: 2.0.0
+author: Hermes Agent
+tags: [cocos-creator, debug, gray-screen, preview, serialization]
+  triggers:
+    - cocos gray
+    - cocos black
+    - 灰屏
+    - 黑屏
+```
+
+**Markdown body** — human-readable, step-by-step instructions with numbered steps, case branches, inline commands, and references to deeper docs:
+
+```markdown
+# Cocos Creator 3.x Gray/Black Screen Debug Flow
+
+## Step 1: Check Symptom Type
+Turn on **Show FPS** in Preview toolbar.
+
+### Case A: FPS = 60, Draw Call = 0, Game Logic = 0ms
+**Root cause:** Engine runs but script components aren't executing.
+See `references/case-a-script-failure.md`.
+
+### Case B: FPS = 0 or extremely low
+**Root cause:** Engine or rendering pipeline failure.
+See `references/case-b-render-failure.md`.
+```
+
+The `triggers` field in the frontmatter is the agent's entry point — when you say "gray screen" or "black screen" in a Cocos Creator context, the agent matches these keywords, loads the matching `SKILL.md`, and follows the steps. The numbered steps are written as pass/fail checkpoints so the agent can report progress and loop back if a fix doesn't take.
 
 ## Installation
 
