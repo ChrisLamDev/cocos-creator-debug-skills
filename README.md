@@ -22,7 +22,7 @@
   <br><br>
   <img src="screenshots/demo-real.png" alt="cocos-creator-debug-skills live demo" width="90%" style="border-radius: 8px; border: 1px solid #30363d;">
   <br>
-  <em>Terminal showing a live Cocos Creator gray screen debug flow — FPS check, draw call analysis, step-by-step diagnosis</em>
+  <em>Cocos Creator gray-screen-debug-flow terminal output — step-by-step scene file integrity, component bindings, and render pipeline diagnostics</em>
 </div>
 
 <br>
