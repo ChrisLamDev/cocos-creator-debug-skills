@@ -1,0 +1,128 @@
+{
+  "version": "1.0.0",
+  "generated_at": "2026-07-04",
+  "repository": "https://github.com/ChrisLamDev/cocos-creator-debug-skills",
+  "domain": "cocos-creator-debug",
+  "total_skills": 17,
+  "skills": [
+    {
+      "name": "cocos-cli-build-automation-setup",
+      "description": "Set up a GUI-free CLI build pipeline for Cocos Creator 3.x CI/CD",
+      "domain": "cocos-creator",
+      "subdomain": "debug",
+      "path": "skills/cocos-cli-build-automation-setup"
+    },
+    {
+      "name": "cocos-code-driven-scrollview-ui",
+      "description": "Build code-driven scrollable UI panels and lists in Cocos Creator 3.x",
+      "domain": "cocos-creator",
+      "subdomain": "debug",
+      "path": "skills/cocos-code-driven-scrollview-ui"
+    },
+    {
+      "name": "cocos-code-driven-ui-common-pitfalls",
+      "description": "Fix code-driven UI nodes that fail to render text or colors in Cocos Creator 3.x",
+      "domain": "cocos-creator",
+      "subdomain": "debug",
+      "path": "skills/cocos-code-driven-ui-common-pitfalls"
+    },
+    {
+      "name": "cocos-creator-cli-build-debug",
+      "description": "Debug Cocos Creator 3.x CLI build failures with scene or library errors",
+      "domain": "cocos-creator",
+      "subdomain": "debug",
+      "path": "skills/cocos-creator-cli-build-debug"
+    },
+    {
+      "name": "cocos-creator-headless-install-scene-patch",
+      "description": "Install Cocos Creator 3.x and set up a headless test bootstrap without GUI",
+      "domain": "cocos-creator",
+      "subdomain": "debug",
+      "path": "skills/cocos-creator-headless-install-scene-patch"
+    },
+    {
+      "name": "cocos-creator-install-and-debug",
+      "description": "Install Cocos Creator 3.x and debug scene import errors from version conflicts and plugins",
+      "domain": "cocos-creator",
+      "subdomain": "debug",
+      "path": "skills/cocos-creator-install-and-debug"
+    },
+    {
+      "name": "cocos-creator-scene-less-test-bootstrap",
+      "description": "Create a runtime test bootstrap in Cocos Creator 3.x without using .scene files",
+      "domain": "cocos-creator",
+      "subdomain": "debug",
+      "path": "skills/cocos-creator-scene-less-test-bootstrap"
+    },
+    {
+      "name": "cocos-dynamic-ui-layer-color-font",
+      "description": "Fix dynamic UI nodes appearing as gray/blue boxes with missing text or color rendering",
+      "domain": "cocos-creator",
+      "subdomain": "debug",
+      "path": "skills/cocos-dynamic-ui-layer-color-font"
+    },
+    {
+      "name": "cocos-dynamic-ui-panel",
+      "description": "Build full runtime UI panels in Cocos Creator 3.x using pure TypeScript code",
+      "domain": "cocos-creator",
+      "subdomain": "debug",
+      "path": "skills/cocos-dynamic-ui-panel"
+    },
+    {
+      "name": "cocos-graphics-mote-system",
+      "description": "Replace sprite particles with procedural graphics rendering in Cocos Creator 3.x",
+      "domain": "cocos-creator",
+      "subdomain": "debug",
+      "path": "skills/cocos-graphics-mote-system"
+    },
+    {
+      "name": "cocos-graphics-visual-prototyping",
+      "description": "Do zero-asset visual prototyping with the Cocos Creator Graphics component",
+      "domain": "cocos-creator",
+      "subdomain": "debug",
+      "path": "skills/cocos-graphics-visual-prototyping"
+    },
+    {
+      "name": "cocos-gray-screen-camera-canvas-fix",
+      "description": "Fix gray/blue screen issues on Play or Preview in Cocos Creator 3.x",
+      "domain": "cocos-creator",
+      "subdomain": "debug",
+      "path": "skills/cocos-gray-screen-camera-canvas-fix"
+    },
+    {
+      "name": "cocos-gray-screen-debug-flow",
+      "description": "Step-by-step gray/black screen diagnosis for Cocos Creator 3.x Preview mode",
+      "domain": "cocos-creator",
+      "subdomain": "debug",
+      "path": "skills/cocos-gray-screen-debug-flow"
+    },
+    {
+      "name": "cocos-nirvana-rebuild-scene",
+      "description": "Recover from corrupted Cocos Creator scene files with Error 1222/1223",
+      "domain": "cocos-creator",
+      "subdomain": "debug",
+      "path": "skills/cocos-nirvana-rebuild-scene"
+    },
+    {
+      "name": "cocos-scene-json-component-binding",
+      "description": "Bind code-driven TypeScript components in Cocos Creator scene JSON files",
+      "domain": "cocos-creator",
+      "subdomain": "debug",
+      "path": "skills/cocos-scene-json-component-binding"
+    },
+    {
+      "name": "cocos-standalone-test",
+      "description": "Test Cocos Creator code as a standalone HTML without needing the IDE",
+      "domain": "cocos-creator",
+      "subdomain": "debug",
+      "path": "skills/cocos-standalone-test"
+    },
+    {
+      "name": "cocos-ts-compile-check-sop",
+      "description": "Run TypeScript compile checks on Cocos Creator 3.x projects with tsc --noEmit",
+      "domain": "cocos-creator",
+      "subdomain": "debug",
+      "path": "skills/cocos-ts-compile-check-sop"
+    }
+  ]
+}
