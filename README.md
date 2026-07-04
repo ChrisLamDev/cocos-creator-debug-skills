@@ -15,6 +15,16 @@
 
 **Your Cocos Creator 3.x keeps crashing with gray screens? Been there.**
 
+## 📸 Demo
+
+<div align="center">
+  <img src="screenshots/demo.svg" alt="cocos-creator-debug-skills demo" width="100%">
+</div>
+
+<br>
+
+
+
 This collection of 17 executable AI agent skills documents every Cocos Creator 3.x bug I've encountered and the exact steps to fix them — gray screens, black previews, corrupt scene files, code-driven UI rendering issues, CLI build failures, and more.
 
 Each skill is a proven workflow your AI agent can load and execute immediately.
